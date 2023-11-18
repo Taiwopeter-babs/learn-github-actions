@@ -18,7 +18,7 @@ jobs:
       - name: Hello person action step
         id: hello
         # username/repository_name
-        uses: Taiwopeter-babs/learn-github-actions@v0.1
+        uses: Taiwopeter-babs/learn-github-actions@v0.1.1
         with:
           who-to-greet: 'Taiwo Babalola'
       # uses the output from the `hello` step
