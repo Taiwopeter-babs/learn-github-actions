@@ -13,10 +13,11 @@ jobs:
       - run: bats -v
   hello-person-job:
     runs-on: ubuntu-latest
+    name: A job to say hello
     steps:
       - name: Hello person action step
         id: hello
-        - uses: octocat/learn-github-actions@v0.1
+        uses: octocat/learn-github-actions@v0.1
         with:
           who-to-greet: 'Taiwo Babalola'
       # uses the output from the `hello` step
